@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    font-family: 'Ubuntu','sans-serif';
+}
+
+.bg {
+    background: url('syria.jpg');
+    position: absolute;
+    top: -30px;
+    left: -70px;
+    filter: blur(0);
+    height: calc(100vh + 500px);
+    width: calc(100vw + 500px);
+    z-index: -1;
+}
+
+.loading{
+    font-size: 50px;
+    color: whitesmoke;
+}
